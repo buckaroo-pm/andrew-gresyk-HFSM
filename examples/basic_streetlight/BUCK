@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'basic_streetlight',
+  srcs = [
+    'main.cpp',
+  ],
+  deps = [
+    '//:hfsm',
+  ],
+)
